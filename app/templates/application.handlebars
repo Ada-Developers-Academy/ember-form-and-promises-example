@@ -1,0 +1,15 @@
+<div class='container'>
+  <div class='header'>
+    <h1>{{#link-to "users"}}Users R Us{{/link-to}}</h1>
+    <p class='lead'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+  <hr>
+  {{#if notification}}
+    <div class='alert alert-info alert-dismissable'>
+      <button type="button" class="close" {{action 'closeAlert'}}>&times;</button>
+      <strong>Oops</strong>: {{notification}}
+    </div>
+  {{/if}}
+  {{outlet}}
+  
+</div>

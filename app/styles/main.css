@@ -1,0 +1,38 @@
+body {
+  border-top: 5px solid #e63ab3;
+  background-color: #111;
+  color: #ddd
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #e63ab3;
+  text-decoration: none;
+}
+
+ul li:hover {
+  background-color: #222;
+}
+
+input { color: white;}
+.input-inverse {
+  background-color: #000;
+  color: white;
+  border: 1px solid #555;
+}
+
+.header {
+  padding-left: 65px;
+  background: transparent url(/images/fire-logo.png) no-repeat center left;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.btn.active {
+  font-weight: normal;
+}
